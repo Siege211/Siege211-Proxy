@@ -2,19 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style.css">
-    <title>FEC Demo</title>
+    <title>Siegel Proxy</title>
   </head>
   <body>
-    <div id="CommentSection">Comment Section Didnt render</div>
+    <div id="Player">Music Player Didnt render</div>
     <script src="/lib/react.development.js"></script>
     <script src="/lib/react-dom.development.js"></script>
-    <!--<script src="http://localhost:3001/app.js"></script>-->
+    <script src="http://localhost:3011/bundle.js"></script>
     <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
     <script>
+      console.log(MusicPlayer);
       ReactDOM.render(
-        React.createElement(Info),
-        document.getElementById('CommentSection')
+        React.createElement(MusicPlayer),
+        document.getElementById("Player")
       );
     </script>
   </body>
