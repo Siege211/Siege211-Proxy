@@ -1,0 +1,25 @@
+{
+  "name": "siege211proxy",
+  "version": "1.0.0",
+  "description": "Made this so I can fork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon example/proxy/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siege211/Siege211-Proxy.git"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  },
+  "author": "Thomas Siegel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siege211/Siege211-Proxy/issues"
+  },
+  "homepage": "https://github.com/Siege211/Siege211-Proxy#readme"
+}
